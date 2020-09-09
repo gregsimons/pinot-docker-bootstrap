@@ -1,7 +1,7 @@
 # pinot-docker-bootstrap
 
 This project uses docker compose to bootstrap an apache pinot cluster. It builds upon the 
-climate change analysis demo by @kbastani [climate change analysis](https://github.com/kbastani/climate-change-analysis)
+climate change analysis demo by [@kbastani](https://github.com/kbastani) [climate change analysis](https://github.com/kbastani/climate-change-analysis)
 to strip out Apache superset and bootstrap a basic demo cluster.
 
 ## Pre-requisite
