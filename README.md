@@ -4,6 +4,12 @@ This project uses docker compose to bootstrap an apache pinot cluster. It builds
 climate change analysis demo by @kbastani [climate change analysis](https://github.com/kbastani/climate-change-analysis)
 to strip out Apache superset and bootstrap a basic demo cluster.
 
+## Pre-requisite
+
+You will require docker to be setup on your machine and also a minimum memory footprint for docker of around 3gb once
+you start to ingest data. This can be set by opening the docker preferences > Resources > Advanced and sliding the bar
+for Memory allocation.
+
 ## Usage
 
 Intended usage of the bootstrap is to help developers start a base cluster for building applications with Apache Pinot
